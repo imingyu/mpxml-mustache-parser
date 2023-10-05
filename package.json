@@ -1,6 +1,6 @@
 {
     "name": "mpxml-mustache-parser",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "小程序XML Mustache语法（{{xxx}}）解析器",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
