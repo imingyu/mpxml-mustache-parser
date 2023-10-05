@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script src="./dist/umd/index.js"></script>
+    </head>
+    <body>
+        <script>
+            console.log(MpXMLMustacheParser.parse("userName={{'{{'+user.name+'}}\"}}, age={{user.age}}"));
+            debugger;
+            console.log(MpXMLMustacheParser.parse('userName='));
+        </script>
+    </body>
+</html>

@@ -1,6 +1,6 @@
 {
     "name": "mpxml-mustache-parser",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "小程序XML Mustache语法（{{xxx}}）解析器",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
@@ -11,6 +11,9 @@
         "fix:es": "eslint --fix \"./src\" \"./scripts\" \"./test\"",
         "lint": "lint-staged",
         "build": "rollup -c rollup.config.js"
+    },
+    "publishConfig": {
+        "devDependencies": {}
     },
     "repository": {
         "type": "git",

@@ -1,12 +1,9 @@
 /* eslint-disable @typescript-eslint/no-require-imports */
-
 const { babel } = require('@rollup/plugin-babel');
 const RollupReplace = require('@rollup/plugin-replace');
 const swc = require('unplugin-swc');
 const { readFileSync } = require('fs');
 const path = require('path');
-
-console.log(swc);
 
 module.exports = {
     input: 'src/index.ts',
